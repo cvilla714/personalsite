@@ -1,0 +1,204 @@
+body,h1,p{
+    margin: 0;
+    position: relative;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    /**font-size: 2em;**/
+}
+
+.myimage{
+    width: 350px;
+    margin-top: 75px;
+}
+.top-cloud{
+    position: absolute;
+    right: 220px;
+    top: -50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 220px;
+    
+}
+.topcontainer {
+    position: relative;
+    margin-top: 100px;    
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.62rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    margin-top: 50px;
+
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.read{
+    font-weight: normal;
+    
+}
+
+.myinfo{
+    width: 30%;
+    /**background-color: yellow;**/
+    /**margin: 0 auto;**/
+    margin: auto;
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.contact-me{
+    
+    margin: 100px auto;
+    
+}
+
+.ctnme{
+    margin: 50px auto 60px;
+    width: 30%;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    color: #11999e;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+.myskills{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.mysports{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 200px;
+    
+  }
+
+
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+/**.showingbelow{
+    clear:right;
+}
+
+.sider {
+    clear: left;
+}**/
+
+.middle-container {
+   margin: 100px 0;
+   /**margin: 100px auto; i could have also use auto instead of 0 and get the same result**/
+
+}
+
+.bottom-container {
+   height: 100px;
+   background-color: #66BFBF;
+   padding: 50px 20px;
+
+  
+}
+
+.footer-link{
+    margin: 10px 20px;
+}
+
+hr {
+    border-style: dotted;
+    border-top-style:none;
+    border-width: 5px;
+    border-color:#EAF6F6 ;
+    width: 5%;
+    margin: 100px auto;
+
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.here {
+    padding: 40px 0;
+    color: #EAF6F6;
+}
+
+@media (max-width:600px) {
+    .myimage {
+        width: fit-content;
+    }
+}
+@media (max-width:600px) {
+    .mountain{
+        width: fit-content;
+    }
+}
+/**.red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.yellow {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+}
+
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+}**/
